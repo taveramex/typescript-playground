@@ -40,6 +40,10 @@ Este proyecto es un pequeño playground para practicar y probar tus habilidades 
    ```
 3. Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
 
+
+## Sitio publicado en GitHub Pages:  
+👉 [https://taveramex.github.io/typescript-playground/](https://taveramex.github.io/typescript-playground/)
+
 ---
 
 Licencia:
