@@ -9,20 +9,21 @@ const greet2 = (name: string): string => {
 const message = greet2('Armando');
 console.log(message);
 
-interface usuario {
-    id: number;
+interface Usuario {
+    id?: number;
     nombre: string;
     apellido: string;
     edad: number;
     direccion: string;
 }
 
-const getUser = (id: number): usuario => {
-    return {    
-        id,
-        nombre: 'Armando', apellido: 'Tamales', edad: 42, direccion: 'Calle 123'
-    }
-}
+const getUser = (id: number): Usuario => ({    
+    id,
+    nombre: 'Armando',
+    apellido: 'Tamales',
+    edad: 42, 
+    direccion: 'Calle 123'
+});
 
 const localUser= getUser(42);
 console.log(localUser);
