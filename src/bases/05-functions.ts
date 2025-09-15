@@ -1,6 +1,6 @@
-function greet(name: string): string {
-    return (`Hello, ${name}`);
-}
+// function greet(name: string): string {
+//     return (`Hello, ${name}`);
+// }
 
 const greet2 = (name: string): string => {
     return (`Hello, ${name}`);
