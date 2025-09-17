@@ -1,10 +1,5 @@
 
-const charNames = ['Goku', 'Vegeta', 'Gohan'];
-
-const [,name] = charNames;
-
-
-
+//const charNames = ['Goku', 'Vegeta', 'Gohan'];
 
 
 const returnArrayFn = ()=>{
