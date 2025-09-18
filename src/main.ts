@@ -8,7 +8,8 @@ import './style.css'
 //import { useState } from './bases/T1-destructuring'
 import { getHerosByOwner } from './bases/08-imp-exp'
 import { Owner } from './data/heroes.data'
-
+// import './bases/10-fetch-api'
+import './bases/11-async-await'
 // const [name, setName] = useState("Goku");
 // console.log("usando State:"+ name);
 // setName("vegeta");
