@@ -8,10 +8,13 @@ import './style.css'
 //import { useState } from './bases/T1-destructuring'
 import { getHerosByOwner } from './bases/08-imp-exp'
 import { Owner } from './data/heroes.data'
+import './bases/09-promises'
+
 
 // const [name, setName] = useState("Goku");
 // console.log("usando State:"+ name);
 // setName("vegeta");
+
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
