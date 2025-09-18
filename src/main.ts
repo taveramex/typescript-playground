@@ -15,6 +15,7 @@ import './bases/11-async-await'
 // setName("vegeta");
 
 
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <h1>Typescript Training</h1>
